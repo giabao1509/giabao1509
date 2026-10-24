@@ -21,26 +21,64 @@ I'm **Nguyen Thanh Gia Bao**, a fourth-year Information Technology student at **
 
 I'm seeking a **Backend Developer internship**, with interests in **Software Engineering** and **Quality Engineering**. My project work spans REST APIs, database-backed workflows, authentication, and software testing.
 
-- **Backend focus:** Node.js, TypeScript, REST APIs, and SQL; Java and Spring Boot through team projects.
+- **Backend focus:** Java, Spring Boot, Node.js, and TypeScript for REST APIs and database-backed services.
 - **Quality mindset:** test design, browser automation, API testing, and performance testing through coursework.
 - **What I'm looking for:** an opportunity to build useful backend services, learn from code reviews, and contribute to a team.
 
 ## Tech Stack
 
+### Backend Development
+
 <p>
+  <img src="assets/icons/java.svg" height="52" alt="Java">
+  <img src="assets/icons/spring-boot.svg" height="52" alt="Spring Boot">
   <img src="assets/icons/nodejs.svg" height="52" alt="Node.js">
+  <img src="assets/icons/express.svg" height="52" alt="Express">
   <img src="assets/icons/typescript.svg" height="52" alt="TypeScript">
   <img src="assets/icons/javascript.svg" height="52" alt="JavaScript">
   <img src="assets/icons/rest-api.svg" height="52" alt="REST API">
-  <img src="assets/icons/sql.svg" height="52" alt="SQL">
-  <img src="assets/icons/git.svg" height="52" alt="Git">
 </p>
 
-| Context | Technologies used |
-| :--- | :--- |
-| Backend projects | Express, Prisma, PostgreSQL, Redis, BullMQ, Java, Spring Boot |
-| Testing coursework | Playwright, Postman, Newman, Apache JMeter |
-| Development tools | Git, GitHub, Docker Compose |
+### Frontend & Mobile
+
+<p>
+  <img src="assets/icons/react.svg" height="52" alt="React">
+  <img src="assets/icons/nextjs.svg" height="52" alt="Next.js">
+  <img src="assets/icons/react-native.svg" height="52" alt="React Native">
+  <img src="assets/icons/expo.svg" height="52" alt="Expo">
+  <img src="assets/icons/android.svg" height="52" alt="Android">
+</p>
+
+### Databases & Background Processing
+
+<p>
+  <img src="assets/icons/sql.svg" height="52" alt="SQL">
+  <img src="assets/icons/postgresql.svg" height="52" alt="PostgreSQL">
+  <img src="assets/icons/prisma.svg" height="52" alt="Prisma">
+  <img src="assets/icons/redis.svg" height="52" alt="Redis">
+  <img src="assets/icons/bullmq.svg" height="52" alt="BullMQ">
+</p>
+
+### Testing & Quality Engineering
+
+<p>
+  <img src="assets/icons/playwright.svg" height="52" alt="Playwright">
+  <img src="assets/icons/postman.svg" height="52" alt="Postman">
+  <img src="assets/icons/newman.svg" height="52" alt="Newman">
+  <img src="assets/icons/jmeter.svg" height="52" alt="Apache JMeter">
+</p>
+
+<sub>Test design · GUI & usability evaluation · Browser automation · API testing · Load, stress & spike testing</sub>
+
+### Development Tools
+
+<p>
+  <img src="assets/icons/git.svg" height="52" alt="Git">
+  <img src="assets/icons/github.svg" height="52" alt="GitHub">
+  <img src="assets/icons/docker-compose.svg" height="52" alt="Docker Compose">
+</p>
+
+<sub>Technologies used across my project contributions and testing coursework; backend development is my primary focus.</sub>
 
 ## Featured Projects
 

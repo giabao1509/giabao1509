@@ -40,14 +40,14 @@ anchors = {re.sub(r"[^a-z0-9 -]", "", title.lower()).replace(" ", "-") for title
 for target in re.findall(r'href="#([^"]+)"', text):
     assert target in anchors, target
 html = markdown.markdown(text, extensions=["tables", "sane_lists", "toc"])
-assert html.count("<table>") == 2, "Expected stack and coursework tables"
+assert html.count("<table>") == 1, "Expected coursework table"
 
 CSS = '''
 *{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:#0d1117;color:#e6edf3}
 main{max-width:1040px;margin:40px auto;padding:32px;border:1px solid #30363d;border-radius:8px}
 h2{font-size:24px;border-bottom:1px solid #30363d;padding-bottom:8px;margin-top:32px}h3{font-size:20px;margin-top:28px}
 p{margin:16px 0}a{color:#58a6ff;text-decoration:none}a:hover{text-decoration:underline}
-img{max-width:100%;vertical-align:middle;height:auto}img[height="52"]{height:52px;width:144px;margin:3px 2px}picture img{display:block}
+img{max-width:100%;vertical-align:middle;height:auto}img[height="52"]{height:52px;width:auto;margin:3px 2px}picture img{display:block}
 sub{font-size:13px;vertical-align:baseline}table{display:block;overflow-x:auto;border-collapse:collapse;width:max-content;max-width:100%}
 th,td{border:1px solid #30363d;padding:9px 13px}th{background:#161b22}hr{border:0;border-top:1px solid #30363d;margin:30px 0}ul{padding-left:25px}
 .light{background:#fff;color:#1f2328}.light main{border-color:#d1d9e0}.light h2,.light td,.light th,.light hr{border-color:#d1d9e0}.light th{background:#f6f8fa}.light a{color:#0969da}
@@ -75,5 +75,5 @@ def themed(mode):
 
 for mode, filename in [("dark", "preview.html"), ("light", "preview-light.html")]:
     (ROOT / "assets" / filename).write_text(themed(mode), encoding="utf-8")
-print(f"PASS: {len(images.paths)} image references, {len(svgs)} SVGs, internal anchors, and 2 Markdown tables.")
+print(f"PASS: {len(images.paths)} image references, {len(svgs)} SVGs, internal anchors, and coursework table.")
 print("Created two self-contained offline HTML previews.")

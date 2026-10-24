@@ -8,7 +8,9 @@ The README uses GitHub-supported `<picture>`, `<source>`, `<img>`, `<sub>`, and 
 
 Open [dark preview](preview.html) or [light preview](preview-light.html). Both HTML files embed their artwork and can be viewed offline. These approximate GitHub's layout using a local Markdown renderer; they are not screenshots of a published GitHub profile. The PNG previews were captured with local headless Chrome.
 
-To regenerate HTML, install the optional preview dependency with `python -m pip install Markdown`, then run `python scripts/preview_readme.py`. SVG generation itself needs no dependencies. Preview generation also checks image paths, SVG XML, navigation anchors, and Markdown tables. All 17 unique GitHub links in the root README returned HTTP 200 during review on 24 October 2026.
+To regenerate HTML, install the optional preview dependency with `python -m pip install Markdown`, then run `python scripts/preview_readme.py`. SVG generation itself needs no dependencies. Preview generation also checks image paths, SVG XML, navigation anchors, and the coursework table. All 17 unique GitHub links in the root README returned HTTP 200 during review on 24 October 2026.
+
+The technology section groups project experience into backend, frontend/mobile, databases/background processing, testing, and development tools. Java and Spring Boot are part of the primary backend stack. React/Expo come from UniHub, Next.js from GenDA, and Android from AidBridge. Redis is grouped with data infrastructure and BullMQ with background processing. Testing tools refer to the EShop coursework, without claiming authorship of the application being tested.
 
 ## Updating statistics
 

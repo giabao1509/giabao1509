@@ -74,11 +74,36 @@ icons = {
     "sql": ("SQL", "#bab2ff", '<g fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="25" cy="15" rx="12" ry="5"/><path d="M13 15v18c0 7 24 7 24 0V15M13 24c0 7 24 7 24 0"/></g>'),
     "git": ("Git", "#f4a78f", '<g fill="none" stroke="currentColor" stroke-width="2"><rect x="14" y="13" width="23" height="23" rx="3" transform="rotate(45 25.5 24.5)"/><path d="M20 13v14l9 7M20 20l11 2"/><circle cx="20" cy="20" r="2.5" fill="currentColor"/><circle cx="31" cy="22" r="2.5" fill="currentColor"/><circle cx="29" cy="34" r="2.5" fill="currentColor"/></g>'),
 }
+additional_icons = {
+    "java": ("Java", "#f4a78f", "Jv"),
+    "spring-boot": ("Spring Boot", "#9ada8a", "SB"),
+    "express": ("Express", "#c9d6e5", "ex"),
+    "react": ("React", "#85ddf2", "Re"),
+    "nextjs": ("Next.js", "#edf5ff", "N"),
+    "react-native": ("React Native", "#85ddf2", "RN"),
+    "expo": ("Expo", "#c4cfff", "Ex"),
+    "android": ("Android", "#9ada8a", "An"),
+    "postgresql": ("PostgreSQL", "#8dc9ff", "Pg"),
+    "prisma": ("Prisma", "#b8b4ff", "Pr"),
+    "redis": ("Redis", "#f4a78f", "Rd"),
+    "bullmq": ("BullMQ", "#f4d976", "Q"),
+    "playwright": ("Playwright", "#9ada8a", "Pw"),
+    "postman": ("Postman", "#f4a78f", "Pm"),
+    "newman": ("Newman", "#f4d976", "Nm"),
+    "jmeter": ("Apache JMeter", "#e7a7d5", "Jm"),
+    "github": ("GitHub", "#d3c4ff", "GH"),
+    "docker-compose": ("Docker Compose", "#8dc9ff", "Dc"),
+}
+for name, (label, color, monogram) in additional_icons.items():
+    shape = f'<rect x="12" y="11" width="26" height="28" rx="7" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="25" y="30" text-anchor="middle" fill="currentColor" font-size="12" font-weight="700">{monogram}</text>'
+    icons[name] = (label, color, shape)
+
 for name, (label, color, shape) in icons.items():
-    write(f"icons/{name}.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="144" height="52" viewBox="0 0 144 52" role="img" aria-label="{label}">
-<title>{label}</title><rect x="1" y="1" width="142" height="50" rx="10" fill="#111f32" stroke="#3c526b"/>
+    width = max(144, 58 + len(label) * 8)
+    write(f"icons/{name}.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="52" viewBox="0 0 {width} 52" role="img" aria-label="{label}">
+<title>{label}</title><rect x="1" y="1" width="{width-2}" height="50" rx="10" fill="#111f32" stroke="#3c526b"/>
 <g color="{color}" font-family="Arial,Helvetica,sans-serif">{shape}</g>
 <text x="47" y="31" fill="#edf5ff" font-family="Arial,Helvetica,sans-serif" font-size="13">{label}</text>
 </svg>''')
 
-print("Built 4 theme assets and 6 technology icons in assets/.")
+print(f"Built 4 theme assets and {len(icons)} technology icons in assets/.")
