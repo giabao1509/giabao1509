@@ -1,0 +1,14 @@
+{
+  "snapshot_date": "2026-10-24",
+  "public_repositories": 4,
+  "featured_team_projects": 3,
+  "testing_coursework_branches": 5,
+  "profile_source": "https://api.github.com/users/giabao1509",
+  "team_project_sources": [
+    "https://github.com/khoadanwneee/Software-Design",
+    "https://github.com/phatnguyen975/AidBridge",
+    "https://github.com/KidCute1412/GenDA"
+  ],
+  "coursework_source": "https://github.com/trngnneee/eshop-sut",
+  "coursework_branches": ["HW2-Bao", "HW3-Bao", "HW4-Bao", "HW5-Bao", "HW6-Bao"]
+}

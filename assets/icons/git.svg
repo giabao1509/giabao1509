@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="52" viewBox="0 0 144 52" role="img" aria-label="Git">
+<title>Git</title><rect x="1" y="1" width="142" height="50" rx="10" fill="#111f32" stroke="#3c526b"/>
+<g color="#f4a78f" font-family="Arial,Helvetica,sans-serif"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="14" y="13" width="23" height="23" rx="3" transform="rotate(45 25.5 24.5)"/><path d="M20 13v14l9 7M20 20l11 2"/><circle cx="20" cy="20" r="2.5" fill="currentColor"/><circle cx="31" cy="22" r="2.5" fill="currentColor"/><circle cx="29" cy="34" r="2.5" fill="currentColor"/></g></g>
+<text x="47" y="31" fill="#edf5ff" font-family="Arial,Helvetica,sans-serif" font-size="13">Git</text>
+</svg>

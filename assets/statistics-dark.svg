@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="160" viewBox="0 0 1040 160" role="img" aria-labelledby="title desc">
+<title id="title">GitHub and portfolio snapshot 2026-10-24</title>
+<desc id="desc">Original profile artwork. All content is readable without animation.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,monospace} .packet{animation:pulse 5s ease-in-out infinite} .second{animation-delay:1.5s} @keyframes pulse{0%,100%{opacity:.15}50%{opacity:1}} @media(prefers-reduced-motion:reduce){.packet{animation:none;opacity:.65}}</style>
+<rect x="1" y="1" width="1038" height="158" rx="20" fill="#0b1220" stroke="#283d54"/>
+<text x="40" y="86" fill="#67e8f9" font-size="52" font-weight="700">04</text>
+<text x="40" y="119" fill="#a7bacf" font-size="12" letter-spacing="1" class="mono">PUBLIC REPOSITORIES</text>
+<path d="M364 28V132" stroke="#283d54"/>
+<text x="384" y="86" fill="#67e8f9" font-size="52" font-weight="700">03</text>
+<text x="384" y="119" fill="#a7bacf" font-size="12" letter-spacing="1" class="mono">FEATURED TEAM PROJECTS</text>
+<path d="M708 28V132" stroke="#283d54"/>
+<text x="728" y="86" fill="#67e8f9" font-size="52" font-weight="700">05</text>
+<text x="728" y="119" fill="#a7bacf" font-size="12" letter-spacing="1" class="mono">TESTING BRANCHES</text>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="300" viewBox="0 0 1040 300" role="img" aria-labelledby="title desc">
+<title id="title">Nguyen Thanh Gia Bao — Backend Development &amp; Quality Engineering</title>
+<desc id="desc">Original profile artwork. All content is readable without animation.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,monospace} .packet{animation:pulse 5s ease-in-out infinite} .second{animation-delay:1.5s} @keyframes pulse{0%,100%{opacity:.15}50%{opacity:1}} @media(prefers-reduced-motion:reduce){.packet{animation:none;opacity:.65}}</style>
+<rect x="1" y="1" width="1038" height="298" rx="20" fill="#0b1220" stroke="#283d54"/>
+
+<path d="M640 1V299" stroke="#283d54" stroke-dasharray="3 9"/>
+<text x="44" y="48" fill="#67e8f9" font-size="13" letter-spacing="3" class="mono">HELLO, I'M</text>
+<text x="40" y="111" fill="#edf5ff" font-size="54" font-weight="700" letter-spacing="-2">Nguyen Thanh</text>
+<text x="40" y="172" fill="#edf5ff" font-size="58" font-weight="700" letter-spacing="-2">Gia Bao<tspan fill="#67e8f9">.</tspan></text>
+<text x="44" y="218" fill="#a7bacf" font-size="18">Backend development</text>
+<text x="44" y="245" fill="#a7bacf" font-size="18">Quality engineering</text>
+<rect x="687" y="34" width="306" height="35" rx="17" fill="#102f40"/>
+<circle cx="708" cy="51" r="4" fill="#67e8f9"/>
+<text x="723" y="56" fill="#67e8f9" font-size="12" class="mono" letter-spacing="1">OPEN TO INTERNSHIPS</text>
+<text x="696" y="111" fill="#a7bacf" font-size="13" class="mono">// building the backend</text>
+<g fill="#111f32" stroke="#283d54" stroke-width="1.5">
+<rect x="693" y="136" width="82" height="62" rx="10"/>
+<rect x="803" y="136" width="82" height="62" rx="10"/>
+<rect x="913" y="136" width="82" height="62" rx="10"/>
+<path d="M775 167H803M885 167H913"/>
+</g>
+<g fill="#edf5ff" font-size="14" text-anchor="middle" class="mono">
+<text x="734" y="173">API</text><text x="844" y="173">LOGIC</text><text x="954" y="173">DATA</text>
+</g>
+<circle class="packet" cx="788" cy="167" r="3" fill="#67e8f9"/>
+<circle class="packet second" cx="899" cy="167" r="3" fill="#67e8f9"/>
+<text x="696" y="242" fill="#a7bacf" font-size="13" class="mono">@giabao1509</text>
+<path d="M44 276H124" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+
+</svg>
